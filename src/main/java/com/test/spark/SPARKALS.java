@@ -19,8 +19,8 @@ import scala.Tuple2;
 public class SPARKALS {
 
     private static final String TEST_DATA_PATH = "hdfs://namenode1:9000/user/liubin/als/input/als.input";
-    private static final String USER_FEA_OUTPUT_PATH="hdfs://namenode1:9000/user/liubin/als/input/userFea.txt";
-    private static final String PRODUCT_FEA_OUTPUT_PATH="hdfs://namenode1:9000/user/liubin/als/input/productFea.txt";
+    private static final String USER_FEA_OUTPUT_PATH="hdfs://namenode1:9000/user/liubin/als/output/userFea.txt";
+    private static final String PRODUCT_FEA_OUTPUT_PATH="hdfs://namenode1:9000/user/liubin/als/output/productFea.txt";
     private static final String SPARK_URL = "spark://192.168.10.100:7077";
 
     public static void main( String[] args ) {
